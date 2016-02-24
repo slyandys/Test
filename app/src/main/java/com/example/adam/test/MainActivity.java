@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 //Updating with github
+//An additional part
 public class MainActivity extends AppCompatActivity {
 
 
