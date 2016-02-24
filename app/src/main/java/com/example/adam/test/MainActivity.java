@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         
         btnText = (Button) findViewById(R.id.btnShowText);
         showText = (TextView) findViewById(R.id.showText);
-        hello = String.valueOf(level);
+        hello = String.valueOf(level) + "%";
 
         btnText.setOnClickListener(new View.OnClickListener() {
 
