@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnText;
     TextView showText;
-    String hello;
+    String batteryResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,13 +54,13 @@ public class MainActivity extends AppCompatActivity {
         
         btnText = (Button) findViewById(R.id.btnShowText);
         showText = (TextView) findViewById(R.id.showText);
-        hello = String.valueOf(level) + "%";
+        batteryResult = "Battery Level:" + String.valueOf(level) + "%";
 
         btnText.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                showText.setText(hello);
+                showText.setText(batteryResult);
             }
         });
     }
