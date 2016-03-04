@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         
         btnText = (Button) findViewById(R.id.btnShowText);
         showText = (TextView) findViewById(R.id.showText);
-        batteryResult = "Current Battery Level:" + String.valueOf(level) + "%";
+        batteryResult = "Show Current Battery Level:" + String.valueOf(level) + "%";
 
         btnText.setOnClickListener(new View.OnClickListener() {
 
